@@ -7,8 +7,10 @@ RUN apt-get update && apt-get install -y \
     zsh \ 
     ssh \
     rsync \
-    libgl1-mesa-glx
-
+    libgl1-mesa-glx \
+    python3-pip \
+    python3-poetry
+RUN pip install -U pip
 
 ADD torchsig/ /build/torchsig
 

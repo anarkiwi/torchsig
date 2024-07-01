@@ -10,7 +10,8 @@ import os
 import pickle
 import cv2
 
-DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+# DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+DIR_PATH = "/workspace/code/torchsig/examples/sig53"
 
 
 
